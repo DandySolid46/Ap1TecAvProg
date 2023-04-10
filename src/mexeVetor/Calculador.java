@@ -119,9 +119,9 @@ public class Calculador {
 			}
 			
 			
-			maior.setText(String.valueOf(maiorl));
-			menor.setText(String.valueOf(menorl));
-			media.setText(String.valueOf(somal/vetor.size()));
+			txtMaior.setText(String.valueOf(maiorl));
+			txtMenor.setText(String.valueOf(menorl));
+			txtMedia.setText(String.valueOf(somal/vetor.size()));
 		}
 		
 	}
